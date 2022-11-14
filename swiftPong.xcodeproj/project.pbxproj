@@ -21,6 +21,8 @@
 		80C499B72921A7D800E68792 /* FenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C499B62921A7D800E68792 /* FenceNode.swift */; };
 		80C499B92921A7F600E68792 /* ScoreBoardNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C499B82921A7F600E68792 /* ScoreBoardNode.swift */; };
 		80C499BB2921A86000E68792 /* CourtNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C499BA2921A86000E68792 /* CourtNode.swift */; };
+		80C499BD2921C09A00E68792 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 80C499BC2921C09A00E68792 /* README.md */; };
+		80C499BF2921C12F00E68792 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 80C499BE2921C12F00E68792 /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		80C499B62921A7D800E68792 /* FenceNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenceNode.swift; sourceTree = "<group>"; };
 		80C499B82921A7F600E68792 /* ScoreBoardNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardNode.swift; sourceTree = "<group>"; };
 		80C499BA2921A86000E68792 /* CourtNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtNode.swift; sourceTree = "<group>"; };
+		80C499BC2921C09A00E68792 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80C499BE2921C12F00E68792 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		8096760C2915D34D0070C3B0 = {
 			isa = PBXGroup;
 			children = (
+				80C499BC2921C09A00E68792 /* README.md */,
+				80C499BE2921C12F00E68792 /* assets */,
 				809676172915D34D0070C3B0 /* swiftPong */,
 				809676162915D34D0070C3B0 /* Products */,
 			);
@@ -147,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C499BD2921C09A00E68792 /* README.md in Resources */,
 				809676242915D34E0070C3B0 /* Main.storyboard in Resources */,
+				80C499BF2921C12F00E68792 /* assets in Resources */,
 				8096761B2915D34E0070C3B0 /* GameScene.sks in Resources */,
 				809676262915D34F0070C3B0 /* Assets.xcassets in Resources */,
 				809676292915D34F0070C3B0 /* LaunchScreen.storyboard in Resources */,
