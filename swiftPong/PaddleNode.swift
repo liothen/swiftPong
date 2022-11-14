@@ -21,6 +21,8 @@ class PaddleNode: SKSpriteNode {
         self.physicsBody = SKPhysicsBody(rectangleOf: size).manualMovement()
         self.physicsBody?.categoryBitMask = PhysicsCategory.paddle
         self.physicsBody?.collisionBitMask = PhysicsCategory.ball
+        
+        
     }
     
     required init?(coder: NSCoder) {
